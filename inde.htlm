@@ -1,0 +1,5 @@
+boulefront/
+├── index.html          (huvudfilen med all kod)
+├── README.md           (projektbeskrivning)
+├── .gitignore          (ignorera onödiga filer)
+└── vercel.json         (konfiguration för Vercel)
