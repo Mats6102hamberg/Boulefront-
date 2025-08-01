@@ -846,4 +846,314 @@
             <h2>Om Boulefront</h2>
             <div style="max-width: 800px; margin: 0 auto;">
                 <p style="font-size: 1.2rem; margin-bottom: 2rem; color: #666;">
-                    Boulefront är Sveriges ledande nyhetssida för boule-sport. Vi startades 2025
+                    Boulefront är Sveriges ledande nyhetssida för boule-sport. Vi startades 2025 med en passion för att samla allt som rör boule-världen på ett ställe.
+                </p>
+                
+                <div style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+                    <h3 style="color: #4a5568; margin-bottom: 1rem;">Vår mission</h3>
+                    <p>Vi vill vara den naturliga mötesplatsen för alla som älskar boule. Oavsett om du är nybörjare eller erfaren spelare, ska du kunna komma hit för att få de senaste nyheterna, tips och information om kommande evenemang.</p>
+                </div>
+
+                <div style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+                    <h3 style="color: #4a5568; margin-bottom: 1rem;">Vad vi erbjuder</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: #667eea;">📰</span>
+                            Dagliga nyheter från boule-världen
+                        </li>
+                        <li style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: #667eea;">📅</span>
+                            Komplett evenemangskalender
+                        </li>
+                        <li style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: #667eea;">💡</span>
+                            Tips och trix för att förbättra ditt spel
+                        </li>
+                        <li style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: #667eea;">🏆</span>
+                            Tävlingsreferat och resultat
+                        </li>
+                        <li style="margin-bottom: 0.8rem; padding-left: 1.5rem; position: relative;">
+                            <span style="position: absolute; left: 0; color: #667eea;">👥</span>
+                            Intervjuer med intressanta profiler
+                        </li>
+                    </ul>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 2rem; border-radius: 15px; text-align: center;">
+                    <h3 style="margin-bottom: 1rem;">Kontakta oss</h3>
+                    <p>Har du nyhetstips, bilder eller vill bidra med innehåll? Vi hör gärna från dig!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Kontakta oss</h2>
+            <div class="contact-form">
+                <p style="text-align: center; margin-bottom: 2rem; color: #666;">
+                    Skicka oss dina nyhetstips, bilder eller feedback. Vi svarar alltid!
+                </p>
+                
+                <form onsubmit="sendContact(event)" style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Förnamn</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Efternamn</label>
+                            <input type="text" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>E-postadress</label>
+                        <input type="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Ämne</label>
+                        <select style="width: 100%; padding: 0.8rem; border: 2px solid #eee; border-radius: 8px; font-size: 1rem;">
+                            <option>Nyhetstips</option>
+                            <option>Evenemang</option>
+                            <option>Feedback</option>
+                            <option>Samarbete</option>
+                            <option>Övrigt</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Meddelande</label>
+                        <textarea rows="6" placeholder="Berätta vad du har på hjärtat..." required></textarea>
+                    </div>
+                    
+                    <div style="text-align: center;">
+                        <button type="submit" class="btn-send">Skicka meddelande</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer style="background: rgba(255, 255, 255, 0.9); text-align: center; padding: 2rem; margin-top: 2rem; border-radius: 20px 20px 0 0;">
+        <div class="container">
+            <p style="color: #666; margin-bottom: 1rem;">
+                © 2025 Boulefront - Sveriges nyhetssida för boule-sport
+            </p>
+            <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-bottom: 1rem;">
+                <a href="#" style="color: #667eea; text-decoration: none;">Integritetspolicy</a>
+                <a href="#" style="color: #667eea; text-decoration: none;">Användarvillkor</a>
+                <a href="#" style="color: #667eea; text-decoration: none;">Cookies</a>
+                <a href="#" onclick="showSection('contact')" style="color: #667eea; text-decoration: none;">Kontakt</a>
+            </div>
+            <div class="social-icons">
+                <a href="#" class="social-icon facebook" title="Facebook">📘</a>
+                <a href="#" class="social-icon instagram" title="Instagram">📷</a>
+                <a href="#" class="social-icon twitter" title="Twitter/X">🐦</a>
+                <a href="#" class="social-icon youtube" title="YouTube">📺</a>
+            </div>
+            <div style="margin-top: 1rem;">
+                <small style="color: #888;">
+                    Följ oss för dagliga uppdateringar!
+                </small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()" title="Till toppen">↑</button>
+
+    <!-- Cookie Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <strong>🍪 Vi använder cookies</strong><br>
+                För att förbättra din upplevelse på vår webbplats använder vi cookies. 
+                <a href="#" style="color: #667eea;">Läs mer om cookies</a>
+            </div>
+            <div class="cookie-buttons">
+                <button class="cookie-btn cookie-accept" onclick="acceptCookies()">Acceptera</button>
+                <button class="cookie-btn cookie-decline" onclick="declineCookies()">Avvisa</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Navigation functionality
+        function showSection(sectionName) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => section.classList.remove('active'));
+            
+            // Show selected section
+            document.getElementById(sectionName).classList.add('active');
+            
+            // Update active navigation
+            const navLinks = document.querySelectorAll('.nav-links a');
+            navLinks.forEach(link => link.classList.remove('active'));
+            document.getElementById(`nav-${sectionName}`).classList.add('active');
+            
+            // Close mobile menu if open
+            const navLinksContainer = document.querySelector('.nav-links');
+            const mobileToggle = document.querySelector('.mobile-menu-toggle');
+            navLinksContainer.classList.remove('mobile-active');
+            mobileToggle.classList.remove('active');
+        }
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            const mobileToggle = document.querySelector('.mobile-menu-toggle');
+            
+            navLinks.classList.toggle('mobile-active');
+            mobileToggle.classList.toggle('active');
+        }
+
+        // Back to top functionality
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Cookie banner functionality
+        function acceptCookies() {
+            document.getElementById('cookieBanner').classList.remove('visible');
+        }
+
+        function declineCookies() {
+            document.getElementById('cookieBanner').classList.remove('visible');
+        }
+
+        // Show cookie banner if not already responded
+        function showCookieBanner() {
+            setTimeout(() => {
+                document.getElementById('cookieBanner').classList.add('visible');
+            }, 2000); // Show after 2 seconds
+        }
+
+        // Back to top button visibility
+        function handleScroll() {
+            const backToTopBtn = document.querySelector('.back-to-top');
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('visible');
+            } else {
+                backToTopBtn.classList.remove('visible');
+            }
+        }
+
+        // Newsletter subscription
+        function subscribeNewsletter(event) {
+            event.preventDefault();
+            const email = event.target.querySelector('input[type="email"]').value;
+            alert(`Tack för din prenumeration! Vi har skickat en bekräftelse till ${email}`);
+            event.target.reset();
+        }
+
+        // Contact form
+        function sendContact(event) {
+            event.preventDefault();
+            alert('Tack för ditt meddelande! Vi återkommer inom 24 timmar.');
+            event.target.reset();
+        }
+
+        // Article filtering
+        function filterArticles(category) {
+            const articles = document.querySelectorAll('.article-card');
+            const buttons = document.querySelectorAll('.calendar-filters .filter-btn');
+            
+            // Update button states
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Filter articles
+            articles.forEach(article => {
+                if (category === 'alla' || article.dataset.category === category) {
+                    article.style.display = 'block';
+                } else {
+                    article.style.display = 'none';
+                }
+            });
+        }
+
+        // Calendar filtering
+        function filterCalendar(filter) {
+            // Update filter button states
+            const filterButtons = document.querySelectorAll('#calendar .filter-btn');
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Here you would implement the actual filtering logic
+            // For now, we'll just show an alert to demonstrate functionality
+            alert(`Filtrerar kalender för: ${filter}`);
+        }
+
+        // Initialize features when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add loading animation
+            document.body.style.opacity = '0';
+            setTimeout(() => {
+                document.body.style.transition = 'opacity 0.5s ease';
+                document.body.style.opacity = '1';
+            }, 100);
+
+            // Initialize scroll handler for back-to-top button
+            window.addEventListener('scroll', handleScroll);
+
+            // Show cookie banner
+            showCookieBanner();
+
+            // Add click handlers for article cards
+            const articleCards = document.querySelectorAll('.article-card');
+            articleCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    alert('Här skulle artikeln öppnas i full storlek!');
+                });
+            });
+
+            // Add hover effects for news items
+            const newsItems = document.querySelectorAll('.news-item');
+            newsItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.style.backgroundColor = '#f8f9ff';
+                    this.style.borderRadius = '8px';
+                    this.style.padding = '1rem';
+                    this.style.margin = '0.5rem 0';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.backgroundColor = 'transparent';
+                    this.style.borderRadius = '0';
+                    this.style.padding = '1rem 0';
+                    this.style.margin = '0';
+                });
+            });
+
+            // Calendar day click handler
+            const calendarDays = document.querySelectorAll('.calendar-day.event');
+            calendarDays.forEach(day => {
+                day.addEventListener('click', function() {
+                    const eventText = this.textContent;
+                    alert(`Detaljer för evenemang: ${eventText}\n\nHär skulle mer information om evenemanget visas.`);
+                });
+                
+                day.style.cursor = 'pointer';
+            });
+
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(event) {
+                const navLinks = document.querySelector('.nav-links');
+                const mobileToggle = document.querySelector('.mobile-menu-toggle');
+                const nav = document.querySelector('nav');
+                
+                if (!nav.contains(event.target) && navLinks.classList.contains('mobile-active')) {
+                    navLinks.classList.remove('mobile-active');
+                    mobileToggle.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
